@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PATATAS</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css" />
+
+
+</head>
+<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#home" id="nav-brand"><img src="assets/logo-w.png"></a>
+		      
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="nav-item"><a href="#home" id="home-link">Home</a></li>
+		       	<li class="nav-item"><a href="#features" id="features-link">Features</a></li>
+		       	<li class="nav-item"><a href="#pricing" id="pricing-link">Pricing</a></li>
+				<li class="nav-item"><a href="#customer">customer</a></li>
+		       	<li class="nav-item"><a href="#contact">CONTACT</a></li>
+		       	<li ></li>
+
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+	<section class="home" id="home">	
+		<div class="container home-content" >
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="col-sm-6">
+						<div class="content-1"><br> <br>
+							<h1 class="home-title">Provide All the <br>information your guests<br>need,In one place</h1>
+							<button class="btn btn-default"> TRY IT NOW FOR FREE</button>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<img src="assets/images/imac.png" class="img-responsive">
+					</div>
+					
+				</div>
+			</div>
+			</div>
+			
+		</div>
+	</section>
+	<section class="features" id="features">	
+		<div class="container features-position">
+			<h3 class="our-team">Become a stellar host <br></h3>
+			<hr class="title-hr">
+			 <span class="sub-title">Vacation rental management is hard. Let us help you<br>make it painless</span>
+			
+			<div class="container team-margin">
+
+					<div class="col-sm-4">
+					<b class="fa fa-desktop fa-5x"></b>
+					<h3>WEB DESIGN</h3>
+					<p>Lorem ipsum dolor sit amet, ei vix ferri persius, omnis homero eirmod sed no, ne vim convenire euripidis neglegentur.</p>
+				</div>
+				<div class="col-sm-4">
+					<b class="fa fa-mobile-phone fa-5x"></b>
+					<h3>MOBILE APPS</h3>
+					<p>Lorem ipsum dolor sit amet, ei vix ferri persius, omnis homero eirmod sed no, ne vim convenire euripidis neglegentur.</p>
+				</div>
+				<div class="col-sm-4">
+					<b class="fa fa-camera-retro fa-5x"></b>
+					<h3>PHOTOGRAPHY</h3>
+					<p>Lorem ipsum dolor sit amet, ei vix ferri persius, omnis homero eirmod sed no, ne vim convenire euripidis neglegentur.</p>
+				</div>
+				
+				
+			</div>
+		</div>
+	</section>
+
+
+	<section class="pricing" id="pricing">	
+		<div class="container">
+			<h3 class="pricing-title">Questions hostfully can answer for you<br></h3>
+			<hr class="title-hr-pricing" align="left">
+			 <span class="sub-title-pricing">Vacation rental management is hard. Let us help you<br>make it painless</span>
+			 <br><br><br>
+			 <p class="sub2-title-pricing">
+			 	<i>
+			 		Lorem ipsum dolor sit amet, magnis interdum ut donec orci quam, sem pharetra, suspendisse praesent fringilla sit et enim. Rutrum laoreet facilisi, vitae vel orci, consectetuer congue in volutpat id velit habitasse. Suspendisse tortor nulla ante elit felis, a in vestibulum velit sit, interdum suspendisse amet vitae accusamus. 
+			 	</i>
+			 </p>
+			 <img src="assets/images/lap2.jpg" class="img-responsive laptop-image" >
+			
+		</div>
+	</section>
+
+	<section class="customer" id="customer">	
+		<div class="container">
+			
+			 
+			
+		</div>
+	</section>
+
+	<section class="contact" id="contact">	
+		<div class="container">
+			
+			 
+			
+		</div>
+	</section>
+
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		/*var offset_home = $('#home').offset().top
+        var offset_about = $('#about').offset().top
+		var offset_services = $('#services').offset().top
+		var offset_work= $('#work').offset().top
+		var offset_testi = $('#testi').offset().top
+		var offset_contact = $('#contact').offset().top*/
+
+		var top = $(window).scrollTop()
+		$('a').click(function(e){
+			e.preventDefault()
+
+			console.log()
+			
+			
+
+			
+			if ($(this).hasClass('about-btn')) {
+				$('.navbar-nav a.active').removeClass('active')
+				$('#about-link').addClass('active')
+			}
+
+			else if($(this).hasClass('navbar-brand')){
+				$('.navbar-nav a.active').removeClass('active')
+				$('#home-link').addClass('active')
+			}
+
+			else{
+				$('.navbar-nav a.active').removeClass('active')
+				$(e.target).addClass('active')
+			}
+
+
+
+	        var hash = e.target.hash
+	        console.log(hash)
+	        $('html, body').animate({ scrollTop: $(hash).offset().top}, 800)
+	            
+	     })
+
+
+
+            $(window).scroll(function(e){
+            	if($(document).scrollTop()>50){
+            		$(".navbar-default").addClass("animate")
+            	}
+            	else{
+            		$(".navbar-default").removeClass("animate")
+            	}
+            })
+
+	})
+
+/*	 $(window).scroll(function(e){
+
+	 	
+	 	
+
+
+
+
+        console.log('This will trigger animation', offset_about, top)
+	})*/
+
+
+	 
+
+</script>
+</body>
+</html>

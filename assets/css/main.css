@@ -1,0 +1,202 @@
+body,html{
+	height: 100%;
+	font-family: 'lato', sans-serif;
+}
+.navbar-brand>img{
+	height: 30px;
+
+}
+
+.nav-item{
+	padding-left: 17px;
+}
+
+.home-title{
+	color:#fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.home-content{
+	position: absolute;
+	
+}
+
+
+.home{
+	position: relative;
+	height: 100%;
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+/*  	background: url('../images/bg1.jpg'); */
+	background: -webkit-linear-gradient(230deg, #ff01ce, #0192ff);
+	background: -o-linear-gradient(230deg, #ff01ce, #0192ff);
+	background: linear-gradient(320deg, #ff01ce, #0192ff);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-color: black;
+	padding-bottom: 50px;
+}
+
+.features{
+	height: 100%;
+	padding-top: 70px;
+	text-align: center;
+
+
+}
+.pricing{
+	height: 100%;
+	padding-top: 70px;
+	text-align: left;
+	background: url('../images/lap.jpg');
+	background-position: 700px 0px;
+	background-size: 85%;
+	background-repeat: no-repeat;
+
+}
+.sub2-title-pricing{
+	width: 45%;
+}
+.laptop-image{
+	width: 40%;
+}
+.navbar-default .navbar-nav>li>a{
+	text-transform: uppercase;
+	color: #fff;
+	padding:0 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	text-transform: uppercase;
+	color: #000;
+}
+.navbar-default{
+	font-size: 12px;
+	font-weight:600;
+    border:none;
+    background-color:transparent;
+    height: 60px;
+ 	padding-top: 5px;
+    transition: all 1s ease;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  padding-top: 20px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.btn-default{
+	margin-top: 20px;
+	background-color: white;
+	color:#0192ff;
+}
+ .navbar-default.animate{
+    background-color: #0192ff;
+}
+
+.our-team {
+	font-size:28px;
+	font-weight: 700;
+	background: -webkit-linear-gradient(230deg, #ff01ce, #0192ff);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	position: relative;
+}
+.sub-title{
+	font-size: 16px;
+
+}
+.title-hr{
+	border: 0;
+	width: 50px;
+    height: 4px;
+    background: -webkit-linear-gradient(230deg, #ff01ce, #0192ff);
+}
+.team-margin{
+	padding-top: 80px;
+
+}
+.box-style-1{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px 10px 20px 10px;
+	box-shadow: 1px 2px 10px #888888;
+}
+
+
+.pricing-title {
+	font-size:28px;
+	font-weight: 700;
+	background: -webkit-linear-gradient(230deg, #ff01ce, #0192ff);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	position: relative;
+}
+.sub-title-pricing{
+	font-size: 16px;
+
+}
+.title-hr-pricing{
+	border: 0;
+
+	width: 50px;
+    height: 4px;
+    background: -webkit-linear-gradient(230deg, #ff01ce, #0192ff);
+}
+.customer{
+	height: 100%;
+	padding-top: 70px;
+}
+.contact{
+	height: 100%;
+	padding-top: 70px;	
+}
+@media only screen and (max-width: 425px) {
+	.features{
+	height:auto;
+	padding-top: 70px;
+	text-align: center;
+	}
+
+	.navbar-default .navbar-collapse{
+		border-color: transparent;
+		background-color:#0192ff;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		background-color: #0192ff;
+		padding: 5px 0px;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background-color:#000;
+		
+	}
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+		
+		color: #fff;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background-color: #0192ff;
+	}
+	.sub2-title-pricing{
+	width: auto;
+	text-align: center;
+	}
+	.laptop-image{
+	width: auto;
+	}
+}
